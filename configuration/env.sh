@@ -100,7 +100,7 @@ case "`uname -m`" in
 			;;
 		esac
 		;;
-	i?86)
+	x86_64|i?86)
 		#################### Linux configuration ######################
 		MACHINETYPE=LINUX
 		objdir=linux
